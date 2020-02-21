@@ -19,6 +19,7 @@ NB: For the changes to take effect you need to either logout/reboot your system 
 
 If you get the following error message: 
 docker-compose not found, make sure it's under `/usr/bin/docker-compose`. 
+
 If not, install it (according to your distro) or create a symbolic link for it
 `ln -s $(which docker-compose) /usr/bin/docker-compose`.
 
